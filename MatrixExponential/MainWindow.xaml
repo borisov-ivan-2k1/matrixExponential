@@ -1,0 +1,24 @@
+﻿<Window x:Class="MatrixExponential.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MatrixExponential"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="i00" HorizontalAlignment="Left" Height="40" Margin="48,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="40" />
+        <TextBox x:Name="i01" HorizontalAlignment="Left" Height="40" Margin="104,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="i10" HorizontalAlignment="Left" Height="40" Margin="48,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="40"/>
+        <TextBox x:Name="i11" HorizontalAlignment="Left" Height="40" Margin="104,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="40"/>
+            
+        <TextBox x:Name="r00" HorizontalAlignment="Left" Height="40" Margin="304,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="r01" HorizontalAlignment="Left" Height="40" Margin="415,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="r10" HorizontalAlignment="Left" Height="40" Margin="304,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="r11" HorizontalAlignment="Left" Height="40" Margin="415,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="80"/>
+        <Button x:Name="button" Content="Посчитать" HorizontalAlignment="Left" Margin="185,95,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Label x:Name="label" Content="Посчитать потричную экспоненту" HorizontalAlignment="Left" Margin="119,10,0,0" VerticalAlignment="Top"/>
+        <Canvas HorizontalAlignment="Left" Height="100" Margin="133,209,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>
